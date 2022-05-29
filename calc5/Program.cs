@@ -50,7 +50,7 @@ namespace calc5
                 {
                     Console.WriteLine("Неизвестный оператор.");
                 }
-                Console.WriteLine("Вы хотите продолжить работу с калькулятором? (д/н)");
+                Console.WriteLine("Вы действительно хотите продолжить работу с калькулятором? (д/н)");
                 again = Convert.ToChar(Console.ReadLine());
             }
         }
